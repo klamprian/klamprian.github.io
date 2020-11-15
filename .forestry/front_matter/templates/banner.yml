@@ -1,0 +1,22 @@
+---
+label: banner
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: banner
+- type: text
+  label: Link
+  name: link
+- type: field_group
+  name: image
+  label: Image
+  fields:
+  - type: file
+    name: image
+    label: Image
+  - type: text
+    name: alt_text
+    label: Alt Text

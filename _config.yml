@@ -1,0 +1,16 @@
+title: Lamprianidis Dental Clinic
+author: Nick Lamprianidis
+email: info@lamprianidis-dental.clinic
+description: This is the business website of Lamprianidis Dental Clinic
+baseurl: ''
+url: https://lamprianidis-dental.clinic
+
+defaults:
+  - scope:
+      path: '' # an empty string here means all files in the project
+    values:
+      layout: default # this ensures all content renders with layouts/default.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-menus

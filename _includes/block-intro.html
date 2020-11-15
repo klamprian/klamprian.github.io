@@ -1,0 +1,16 @@
+<section class="block block-hero-2"{% if section.background_image %} style="background-image: url('{{ section.background_image | relative_url }}')"{% endif %}>
+  <div class="container">
+    <div class="columns" style="padding-bottom: 4em">
+      <div class="column text">
+        <h1><span class="light">{{ section.headline }}</span></h1>
+        <div style="padding-top: 2em">
+          <div class="subtitle">{{ section.content }}</div>
+          <div class="phones"><span class="fas fa-phone-alt fa-sm"></span> &nbsp;{{ section.phone.landline }} &nbsp;&nbsp;|&nbsp;&nbsp; <span class="fas fa-mobile-alt fa-sm"></span> &nbsp;{{ section.phone.cellphone }}</div>
+        </div>
+      </div>
+      <div class="column media">
+        <img src="{{ section.image.image | relative_url }}" alt="{{ section.image.alt_text }}" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>

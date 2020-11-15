@@ -1,0 +1,26 @@
+<section id="{{ section.slug | slugify }}" class="block block-feature-2 opening-hours">
+  <div class="container">
+    <div class="columns">
+      <div class="column media">
+          <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}" loading="lazy">
+      </div>
+      <div class="column text">
+          <h2><span class="light">{{ section.headline }}</span></h2>
+          <table class="opening-hours">
+            <tr>
+              <td><strong>Δευ – Παρ:</strong></td>
+              <td>{{ section.hours.weekdays }}</td>
+            </tr>
+            <tr>
+              <td><strong>Σάβ:</strong></td>
+              <td>{{ section.hours.saturday }}</td>
+            </tr>
+            <tr>
+              <td><strong>Κυρ:</strong></td>
+              <td>{{ section.hours.sunday }}</td>
+            </tr>
+          </table>
+      </div>
+    </div>
+  </div>
+</section>

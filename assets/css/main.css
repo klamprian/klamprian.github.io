@@ -1,0 +1,106 @@
+h2 span.light {
+  font-size: 1.2em;
+}
+
+.column.text p {
+    font-size: 1.2rem;
+}
+
+section.block {
+  padding: 2rem 2rem;
+}
+
+@media screen and (min-width:700px) {
+  section.block {
+    padding: 4rem 2rem;
+  }
+}
+
+/* Banner */
+
+.block-two-column-1.block-banner {
+  --bg: #346084;
+  background-color: var(--bg);
+  min-height: 10vh;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.block-banner img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  float: right;
+}
+
+.block-banner .column.text {
+  margin: 0rem 0.6rem;
+}
+
+/* Intro */
+
+.subtitle {
+  font-size: 1.35em;
+}
+
+.phones {
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  font-size: 1.5em;
+}
+
+.block-hero-2 {
+  --bg: #346084;
+  /* Set because of banner */
+  min-height: 90vh;
+  padding-bottom: 16rem;
+}
+
+/* Opening Hours */
+
+.opening-hours h2 {
+  font-size: 1.6em;
+  padding-bottom: 0rem;
+}
+
+.opening-hours table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opening-hours th, td {
+  font-size: 1em;
+  padding: 0.5rem 1rem 0.5rem 0rem;
+  text-align: left;
+}
+
+.opening-hours .media img {
+  width: 100%;
+}
+
+@media screen and (min-width:700px) {
+  .opening-hours h2 {
+    font-size: 2.3em;
+    padding-bottom: 0.5rem;
+  }
+
+  .opening-hours th, td {
+    font-size: 1.3em;
+    padding: 0.5rem 1rem 0.5rem 0rem;
+  }
+
+  .opening-hours div .media {
+    max-width: 50%;
+  }
+}
+
+/* Footer */
+
+footer.block {
+  padding: 2rem 8rem;
+}
+
+@media screen and (min-width:700px) {
+  footer.block {
+    padding: 4rem 2rem;
+  }
+}
