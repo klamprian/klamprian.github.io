@@ -31,8 +31,6 @@ page_sections:
     headline: Πληροφορίες
     content: |
       <span>Οδοντιατρείο στο Μακροχώρι Ημαθίας</span>
-      <br><br>
-      <span>Η σελίδα είναι υπό κατασκευή...</span>
     media:
       image: "/assets/img/site/dental-xray.jpg"
       alt_text: "Dental Xray"
